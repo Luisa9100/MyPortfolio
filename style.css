@@ -108,7 +108,7 @@ h4{
 }
 .about-text{
     width: 550px;
-
+padding: 50px 30px;
 }
 .main{
     width: 1130px;;
@@ -202,3 +202,53 @@ footer p:nth-child(1){
 
 }
 
+@media (max-width:767px){
+.logo{
+    font-size: 20px !important;
+}
+.hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 55px !important;
+    margin-left: 0px !important;
+
+}
+nav ul li{
+    padding: 10px 10px !important;
+}
+nav ul li a{
+    font-size: 12px !important;
+   }
+nav{
+    padding-left:10px;
+    padding-right:10px;
+}
+}
+@media (max-width:1024px){
+    .main{
+        display: block !important;
+    }
+    .about img{
+        width: 100% !important;
+        object-fit: contain;
+        height: auto;
+    }
+    .about-text {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .contact-me p{
+        text-align: center;
+        font-size: 18px;
+    }
+    .newsletter form input:first-child {
+      
+        width: 50% !important;
+    }
+    nav ul{
+        display: flex;
+    }
+   
+}
